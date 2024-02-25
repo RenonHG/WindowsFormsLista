@@ -8,7 +8,6 @@ C:\repos\Renon\WindowsFormsLista\WindowsFormsLista\bin\Debug\WindowsFormsLista.e
 C:\repos\Renon\WindowsFormsLista\WindowsFormsLista\bin\Debug\WindowsFormsLista.pdb
 C:\repos\Renon\WindowsFormsLista\WindowsFormsLista\obj\Debug\WindowsFormsLista.exe
 C:\repos\Renon\WindowsFormsLista\WindowsFormsLista\obj\Debug\WindowsFormsLista.pdb
-C:\repos\Renon\WindowsFormsLista\WindowsFormsLista\obj\Debug\WindowsFormsLista.Form1.resources
 C:\Users\renon.hgusson\source\repos\WindowsFormsLista\WindowsFormsLista\bin\Debug\WindowsFormsLista.exe.config
 C:\Users\renon.hgusson\source\repos\WindowsFormsLista\WindowsFormsLista\bin\Debug\WindowsFormsLista.exe
 C:\Users\renon.hgusson\source\repos\WindowsFormsLista\WindowsFormsLista\bin\Debug\WindowsFormsLista.pdb
@@ -20,3 +19,4 @@ C:\Users\renon.hgusson\source\repos\WindowsFormsLista\WindowsFormsLista\obj\Debu
 C:\Users\renon.hgusson\source\repos\WindowsFormsLista\WindowsFormsLista\obj\Debug\WindowsFormsLista.csproj.CoreCompileInputs.cache
 C:\Users\renon.hgusson\source\repos\WindowsFormsLista\WindowsFormsLista\obj\Debug\WindowsFormsLista.exe
 C:\Users\renon.hgusson\source\repos\WindowsFormsLista\WindowsFormsLista\obj\Debug\WindowsFormsLista.pdb
+C:\repos\Renon\WindowsFormsLista\WindowsFormsLista\obj\Debug\WindowsFormsLista.MenuExercicios.resources

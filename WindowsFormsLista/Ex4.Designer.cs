@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ex4));
             this.cbxLetras = new System.Windows.Forms.CheckBox();
             this.cbxNumeros = new System.Windows.Forms.CheckBox();
             this.cbxEspeciais = new System.Windows.Forms.CheckBox();
@@ -152,7 +153,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.ClientSize = new System.Drawing.Size(418, 450);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnGerarSenha);
             this.Controls.Add(this.label3);
@@ -163,6 +165,9 @@
             this.Controls.Add(this.cbxEspeciais);
             this.Controls.Add(this.cbxNumeros);
             this.Controls.Add(this.cbxLetras);
+            this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Ex4";
             this.Text = "Ex4";
             ((System.ComponentModel.ISupportInitialize)(this.nudTamanho)).EndInit();
