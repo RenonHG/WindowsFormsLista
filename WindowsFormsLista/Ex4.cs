@@ -67,10 +67,6 @@ namespace WindowsFormsLista
             }
             senha = "";
 
-
         }
-
-
-
     }
 }

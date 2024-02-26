@@ -48,6 +48,7 @@ namespace WindowsFormsLista
 
         private void btnEx1_Click(object sender, EventArgs e)
         {
+            loadForm(new Ex1());
 
         }
     }
