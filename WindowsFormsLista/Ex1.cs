@@ -111,7 +111,6 @@ namespace WindowsFormsLista
             string conexaoString = "server=62.72.62.1;user=u687609827_alunos;database=u687609827_TI21;port=3306;password=@Aluno12345";
             string id = txbID.Text;
 
-
             using (MySqlConnection conexao = new MySqlConnection(conexaoString))
             {
                 string remover = "DELETE FROM renon_tb_tarefas WHERE id = @id";
@@ -119,6 +118,7 @@ namespace WindowsFormsLista
                 using (MySqlCommand comando = new MySqlCommand(remover, conexao))
                 {
                     conexao.Open();
+
 
                     comando.Parameters.AddWithValue("@id", id);
 
@@ -130,9 +130,10 @@ namespace WindowsFormsLista
                     }
 
                     conexao.Close();
-                    txbTarefa.Text = "";
+                    txbID.Text = "";
                     listViewTarefas.Items.Clear();
                     CarregarTarefas();
+
                 }
             }
 

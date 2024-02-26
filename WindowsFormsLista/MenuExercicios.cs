@@ -28,22 +28,11 @@ namespace WindowsFormsLista
             this.painelConteudo.Controls.Add(formSelecionado);
             this.painelConteudo.Tag = formSelecionado;
             formSelecionado.Show();
-
-
-
         }
-
 
         private void Form1_Load(object sender, EventArgs e)
         {
             
-        }
-
-
-        private void btnEx4_Click(object sender, EventArgs e)
-        {
-            loadForm(new Ex4());
-
         }
 
         private void btnEx1_Click(object sender, EventArgs e)
@@ -51,5 +40,21 @@ namespace WindowsFormsLista
             loadForm(new Ex1());
 
         }
+
+        private void btnEx2_Click(object sender, EventArgs e)
+        {
+            loadForm(new Ex2());
+        }
+
+        private void btnEx3_Click(object sender, EventArgs e)
+        {
+            loadForm(new Ex3());
+        }
+
+        private void btnEx4_Click(object sender, EventArgs e)
+        {
+            loadForm(new Ex4());
+        }
+
     }
 }
