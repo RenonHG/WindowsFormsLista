@@ -50,14 +50,14 @@
             "Dólar",
             "Euro",
             "Real"});
-            this.cbxFinal.Location = new System.Drawing.Point(57, 238);
+            this.cbxFinal.Location = new System.Drawing.Point(54, 256);
             this.cbxFinal.Name = "cbxFinal";
             this.cbxFinal.Size = new System.Drawing.Size(121, 21);
             this.cbxFinal.TabIndex = 0;
             // 
             // btnConverter
             // 
-            this.btnConverter.Location = new System.Drawing.Point(70, 278);
+            this.btnConverter.Location = new System.Drawing.Point(67, 296);
             this.btnConverter.Name = "btnConverter";
             this.btnConverter.Size = new System.Drawing.Size(87, 23);
             this.btnConverter.TabIndex = 1;
@@ -67,7 +67,7 @@
             // 
             // txbValor
             // 
-            this.txbValor.Location = new System.Drawing.Point(57, 123);
+            this.txbValor.Location = new System.Drawing.Point(54, 141);
             this.txbValor.Name = "txbValor";
             this.txbValor.Size = new System.Drawing.Size(121, 20);
             this.txbValor.TabIndex = 2;
@@ -75,7 +75,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(57, 104);
+            this.label1.Location = new System.Drawing.Point(54, 122);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(70, 13);
             this.label1.TabIndex = 3;
@@ -84,7 +84,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(57, 222);
+            this.label2.Location = new System.Drawing.Point(54, 240);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(32, 13);
             this.label2.TabIndex = 4;
@@ -95,7 +95,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label4.Location = new System.Drawing.Point(95, 52);
+            this.label4.Location = new System.Drawing.Point(113, 67);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(255, 24);
             this.label4.TabIndex = 6;
@@ -107,7 +107,7 @@
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(57, 52);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(32, 32);
+            this.pictureBox1.Size = new System.Drawing.Size(50, 50);
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
@@ -124,7 +124,7 @@
             "Dólar",
             "Euro",
             "Real"});
-            this.cbxInicial.Location = new System.Drawing.Point(57, 183);
+            this.cbxInicial.Location = new System.Drawing.Point(54, 201);
             this.cbxInicial.Name = "cbxInicial";
             this.cbxInicial.Size = new System.Drawing.Size(121, 21);
             this.cbxInicial.TabIndex = 8;
@@ -132,7 +132,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(57, 167);
+            this.label5.Location = new System.Drawing.Point(54, 185);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(71, 13);
             this.label5.TabIndex = 9;
@@ -140,7 +140,7 @@
             // 
             // txbResultado
             // 
-            this.txbResultado.Location = new System.Drawing.Point(57, 307);
+            this.txbResultado.Location = new System.Drawing.Point(54, 325);
             this.txbResultado.Name = "txbResultado";
             this.txbResultado.ReadOnly = true;
             this.txbResultado.Size = new System.Drawing.Size(121, 20);
@@ -150,7 +150,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(623, 411);
+            this.ClientSize = new System.Drawing.Size(407, 411);
             this.Controls.Add(this.txbResultado);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.cbxInicial);

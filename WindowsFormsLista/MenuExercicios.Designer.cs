@@ -33,9 +33,10 @@
             this.btnEx1 = new System.Windows.Forms.Button();
             this.btnEx4 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnEx2 = new System.Windows.Forms.Button();
-            this.btnEx3 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnEx3 = new System.Windows.Forms.Button();
+            this.btnEx2 = new System.Windows.Forms.Button();
+            this.btnEx5 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -69,6 +70,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.panel1.Controls.Add(this.btnEx5);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.btnEx3);
             this.panel1.Controls.Add(this.btnEx2);
@@ -79,26 +81,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(161, 450);
             this.panel1.TabIndex = 1;
-            // 
-            // btnEx2
-            // 
-            this.btnEx2.Location = new System.Drawing.Point(3, 119);
-            this.btnEx2.Name = "btnEx2";
-            this.btnEx2.Size = new System.Drawing.Size(152, 23);
-            this.btnEx2.TabIndex = 2;
-            this.btnEx2.Text = "2: Conversor de Moeda";
-            this.btnEx2.UseVisualStyleBackColor = true;
-            this.btnEx2.Click += new System.EventHandler(this.btnEx2_Click);
-            // 
-            // btnEx3
-            // 
-            this.btnEx3.Location = new System.Drawing.Point(3, 148);
-            this.btnEx3.Name = "btnEx3";
-            this.btnEx3.Size = new System.Drawing.Size(152, 23);
-            this.btnEx3.TabIndex = 3;
-            this.btnEx3.Text = "3: Calculadora de Hipoteca";
-            this.btnEx3.UseVisualStyleBackColor = true;
-            this.btnEx3.Click += new System.EventHandler(this.btnEx3_Click);
             // 
             // label1
             // 
@@ -114,6 +96,37 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "LISTA DE EXERCÍCIOS";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnEx3
+            // 
+            this.btnEx3.Location = new System.Drawing.Point(3, 148);
+            this.btnEx3.Name = "btnEx3";
+            this.btnEx3.Size = new System.Drawing.Size(152, 23);
+            this.btnEx3.TabIndex = 3;
+            this.btnEx3.Text = "3: Calculadora de Hipoteca";
+            this.btnEx3.UseVisualStyleBackColor = true;
+            this.btnEx3.Click += new System.EventHandler(this.btnEx3_Click);
+            // 
+            // btnEx2
+            // 
+            this.btnEx2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.btnEx2.Location = new System.Drawing.Point(3, 119);
+            this.btnEx2.Name = "btnEx2";
+            this.btnEx2.Size = new System.Drawing.Size(152, 23);
+            this.btnEx2.TabIndex = 2;
+            this.btnEx2.Text = "2: Conversor de Moeda";
+            this.btnEx2.UseVisualStyleBackColor = false;
+            this.btnEx2.Click += new System.EventHandler(this.btnEx2_Click);
+            // 
+            // btnEx5
+            // 
+            this.btnEx5.Location = new System.Drawing.Point(3, 206);
+            this.btnEx5.Name = "btnEx5";
+            this.btnEx5.Size = new System.Drawing.Size(152, 23);
+            this.btnEx5.TabIndex = 5;
+            this.btnEx5.Text = "5: Lista de Compras";
+            this.btnEx5.UseVisualStyleBackColor = true;
+            this.btnEx5.Click += new System.EventHandler(this.btnEx5_Click);
             // 
             // MenuExercicios
             // 
@@ -142,6 +155,7 @@
         private System.Windows.Forms.Button btnEx2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnEx3;
+        private System.Windows.Forms.Button btnEx5;
     }
 }
 

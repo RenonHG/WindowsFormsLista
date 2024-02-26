@@ -19,22 +19,26 @@ namespace WindowsFormsLista
 
         private void btnSimular_Click(object sender, EventArgs e)
         {
+            try
+            {
+                float emprestimo = float.Parse(txbEmprestimo.Text);
+                int anos = int.Parse(txbPrazo.Text);
+                float taxa = float.Parse(txbTaxaJuros.Text);
 
-            float emprestimo = float.Parse(txbEmprestimo.Text);
-            int anos = int.Parse(txbPrazo.Text);
-            float taxa = float.Parse(txbTaxaJuros.Text);
+                float valorTotal = 0;
+                float valorParcela = 0;
 
-            float valorTotal = 0;
-            float valorParcela = 0;
+                valorTotal = emprestimo + (emprestimo * (taxa / 100));
 
-            valorTotal = emprestimo + (emprestimo * (taxa / 100));
-            
-            valorParcela = (valorTotal / (anos*12));
+                valorParcela = (valorTotal / (anos * 12));
 
-            lbValorTotal.Text = valorTotal.ToString();
-            lbValorMensal.Text = valorParcela.ToString();  
-
-            //MessageBox.Show(valorTotal.ToString());
+                lbValorTotal.Text = valorTotal.ToString();
+                lbValorMensal.Text = valorParcela.ToString();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Por favor, preencha todos os campos necessários.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
 
         }
     }

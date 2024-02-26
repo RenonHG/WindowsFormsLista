@@ -88,3 +88,6 @@ C:\Users\renon.hgusson\source\repos\WindowsFormsLista\WindowsFormsLista\obj\Debu
 C:\Users\renon.hgusson\source\repos\WindowsFormsLista\WindowsFormsLista\obj\Debug\WindowsFormsLista.csproj.CopyComplete
 C:\Users\renon.hgusson\source\repos\WindowsFormsLista\WindowsFormsLista\obj\Debug\WindowsFormsLista.Ex2.resources
 C:\Users\renon.hgusson\source\repos\WindowsFormsLista\WindowsFormsLista\obj\Debug\WindowsFormsLista.Ex3.resources
+C:\repos\Renon\WindowsFormsLista\WindowsFormsLista\obj\Debug\WindowsFormsLista.Ex2.resources
+C:\repos\Renon\WindowsFormsLista\WindowsFormsLista\obj\Debug\WindowsFormsLista.Ex3.resources
+C:\repos\Renon\WindowsFormsLista\WindowsFormsLista\obj\Debug\WindowsFormsLista.Ex5.resources

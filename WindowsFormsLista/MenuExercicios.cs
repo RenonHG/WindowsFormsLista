@@ -56,5 +56,9 @@ namespace WindowsFormsLista
             loadForm(new Ex4());
         }
 
+        private void btnEx5_Click(object sender, EventArgs e)
+        {
+            loadForm(new Ex5());
+        }
     }
 }

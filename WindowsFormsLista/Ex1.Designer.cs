@@ -43,7 +43,7 @@
             // listViewTarefas
             // 
             this.listViewTarefas.HideSelection = false;
-            this.listViewTarefas.Location = new System.Drawing.Point(52, 65);
+            this.listViewTarefas.Location = new System.Drawing.Point(35, 82);
             this.listViewTarefas.Name = "listViewTarefas";
             this.listViewTarefas.Size = new System.Drawing.Size(256, 235);
             this.listViewTarefas.TabIndex = 0;
@@ -54,7 +54,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label1.Location = new System.Drawing.Point(90, 20);
+            this.label1.Location = new System.Drawing.Point(90, 23);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(201, 24);
             this.label1.TabIndex = 1;
@@ -64,16 +64,16 @@
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(52, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(34, 9);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(32, 32);
+            this.pictureBox1.Size = new System.Drawing.Size(50, 50);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
             // btnAdicionar
             // 
-            this.btnAdicionar.Location = new System.Drawing.Point(52, 342);
+            this.btnAdicionar.Location = new System.Drawing.Point(35, 359);
             this.btnAdicionar.Name = "btnAdicionar";
             this.btnAdicionar.Size = new System.Drawing.Size(75, 23);
             this.btnAdicionar.TabIndex = 3;
@@ -83,7 +83,7 @@
             // 
             // btnAlterar
             // 
-            this.btnAlterar.Location = new System.Drawing.Point(233, 371);
+            this.btnAlterar.Location = new System.Drawing.Point(216, 388);
             this.btnAlterar.Name = "btnAlterar";
             this.btnAlterar.Size = new System.Drawing.Size(75, 23);
             this.btnAlterar.TabIndex = 4;
@@ -93,7 +93,7 @@
             // 
             // btnRemover
             // 
-            this.btnRemover.Location = new System.Drawing.Point(233, 342);
+            this.btnRemover.Location = new System.Drawing.Point(216, 359);
             this.btnRemover.Name = "btnRemover";
             this.btnRemover.Size = new System.Drawing.Size(75, 23);
             this.btnRemover.TabIndex = 5;
@@ -103,7 +103,7 @@
             // 
             // txbTarefa
             // 
-            this.txbTarefa.Location = new System.Drawing.Point(52, 316);
+            this.txbTarefa.Location = new System.Drawing.Point(35, 333);
             this.txbTarefa.Name = "txbTarefa";
             this.txbTarefa.Size = new System.Drawing.Size(123, 20);
             this.txbTarefa.TabIndex = 6;
@@ -113,7 +113,7 @@
             // 
             // txbID
             // 
-            this.txbID.Location = new System.Drawing.Point(233, 316);
+            this.txbID.Location = new System.Drawing.Point(216, 333);
             this.txbID.Name = "txbID";
             this.txbID.Size = new System.Drawing.Size(75, 20);
             this.txbID.TabIndex = 8;
@@ -125,7 +125,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(363, 450);
+            this.ClientSize = new System.Drawing.Size(334, 450);
             this.Controls.Add(this.txbID);
             this.Controls.Add(this.txbTarefa);
             this.Controls.Add(this.btnRemover);

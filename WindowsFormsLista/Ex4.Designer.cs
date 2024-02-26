@@ -91,8 +91,10 @@
             // 
             this.txbResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbResultado.Location = new System.Drawing.Point(29, 352);
+            this.txbResultado.MaxLength = 99;
             this.txbResultado.Multiline = true;
             this.txbResultado.Name = "txbResultado";
+            this.txbResultado.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txbResultado.Size = new System.Drawing.Size(198, 57);
             this.txbResultado.TabIndex = 4;
             // 
@@ -110,6 +112,11 @@
             // 
             this.nudTamanho.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nudTamanho.Location = new System.Drawing.Point(29, 127);
+            this.nudTamanho.Maximum = new decimal(new int[] {
+            99,
+            0,
+            0,
+            0});
             this.nudTamanho.Name = "nudTamanho";
             this.nudTamanho.Size = new System.Drawing.Size(120, 23);
             this.nudTamanho.TabIndex = 6;
@@ -145,7 +152,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label4.Location = new System.Drawing.Point(67, 20);
+            this.label4.Location = new System.Drawing.Point(85, 34);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(235, 24);
             this.label4.TabIndex = 9;
@@ -159,7 +166,7 @@
             this.pictureBox1.InitialImage = null;
             this.pictureBox1.Location = new System.Drawing.Point(29, 20);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(32, 32);
+            this.pictureBox1.Size = new System.Drawing.Size(50, 50);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
@@ -202,10 +209,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txbResultado;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.NumericUpDown nudTamanho;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnGerarSenha;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.NumericUpDown nudTamanho;
     }
 }
