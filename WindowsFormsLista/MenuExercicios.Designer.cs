@@ -33,25 +33,27 @@
             this.btnEx1 = new System.Windows.Forms.Button();
             this.btnEx4 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnEx5 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.btnEx3 = new System.Windows.Forms.Button();
             this.btnEx2 = new System.Windows.Forms.Button();
-            this.btnEx5 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btnEx7 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // painelConteudo
             // 
-            this.painelConteudo.Location = new System.Drawing.Point(161, 0);
+            this.painelConteudo.Location = new System.Drawing.Point(192, 0);
             this.painelConteudo.Name = "painelConteudo";
-            this.painelConteudo.Size = new System.Drawing.Size(639, 450);
+            this.painelConteudo.Size = new System.Drawing.Size(608, 450);
             this.painelConteudo.TabIndex = 0;
             // 
             // btnEx1
             // 
             this.btnEx1.Location = new System.Drawing.Point(3, 90);
             this.btnEx1.Name = "btnEx1";
-            this.btnEx1.Size = new System.Drawing.Size(152, 23);
+            this.btnEx1.Size = new System.Drawing.Size(163, 23);
             this.btnEx1.TabIndex = 0;
             this.btnEx1.Text = "1: Lista de Tarefas";
             this.btnEx1.UseVisualStyleBackColor = true;
@@ -61,7 +63,7 @@
             // 
             this.btnEx4.Location = new System.Drawing.Point(3, 177);
             this.btnEx4.Name = "btnEx4";
-            this.btnEx4.Size = new System.Drawing.Size(152, 23);
+            this.btnEx4.Size = new System.Drawing.Size(163, 23);
             this.btnEx4.TabIndex = 1;
             this.btnEx4.Text = "4: Gerador de Senha";
             this.btnEx4.UseVisualStyleBackColor = true;
@@ -70,6 +72,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.panel1.Controls.Add(this.btnEx7);
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.btnEx5);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.btnEx3);
@@ -79,8 +83,18 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(161, 450);
+            this.panel1.Size = new System.Drawing.Size(193, 450);
             this.panel1.TabIndex = 1;
+            // 
+            // btnEx5
+            // 
+            this.btnEx5.Location = new System.Drawing.Point(3, 206);
+            this.btnEx5.Name = "btnEx5";
+            this.btnEx5.Size = new System.Drawing.Size(163, 23);
+            this.btnEx5.TabIndex = 5;
+            this.btnEx5.Text = "5: Lista de Compras";
+            this.btnEx5.UseVisualStyleBackColor = true;
+            this.btnEx5.Click += new System.EventHandler(this.btnEx5_Click);
             // 
             // label1
             // 
@@ -101,7 +115,7 @@
             // 
             this.btnEx3.Location = new System.Drawing.Point(3, 148);
             this.btnEx3.Name = "btnEx3";
-            this.btnEx3.Size = new System.Drawing.Size(152, 23);
+            this.btnEx3.Size = new System.Drawing.Size(163, 23);
             this.btnEx3.TabIndex = 3;
             this.btnEx3.Text = "3: Calculadora de Hipoteca";
             this.btnEx3.UseVisualStyleBackColor = true;
@@ -112,21 +126,31 @@
             this.btnEx2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.btnEx2.Location = new System.Drawing.Point(3, 119);
             this.btnEx2.Name = "btnEx2";
-            this.btnEx2.Size = new System.Drawing.Size(152, 23);
+            this.btnEx2.Size = new System.Drawing.Size(163, 23);
             this.btnEx2.TabIndex = 2;
             this.btnEx2.Text = "2: Conversor de Moeda";
             this.btnEx2.UseVisualStyleBackColor = false;
             this.btnEx2.Click += new System.EventHandler(this.btnEx2_Click);
             // 
-            // btnEx5
+            // button1
             // 
-            this.btnEx5.Location = new System.Drawing.Point(3, 206);
-            this.btnEx5.Name = "btnEx5";
-            this.btnEx5.Size = new System.Drawing.Size(152, 23);
-            this.btnEx5.TabIndex = 5;
-            this.btnEx5.Text = "5: Lista de Compras";
-            this.btnEx5.UseVisualStyleBackColor = true;
-            this.btnEx5.Click += new System.EventHandler(this.btnEx5_Click);
+            this.button1.Location = new System.Drawing.Point(3, 235);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(163, 23);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "6: Conversor de Temperatura";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnEx7
+            // 
+            this.btnEx7.Location = new System.Drawing.Point(3, 264);
+            this.btnEx7.Name = "btnEx7";
+            this.btnEx7.Size = new System.Drawing.Size(163, 23);
+            this.btnEx7.TabIndex = 7;
+            this.btnEx7.Text = "7: Contagem Regressiva";
+            this.btnEx7.UseVisualStyleBackColor = true;
+            this.btnEx7.Click += new System.EventHandler(this.btnEx7_Click);
             // 
             // MenuExercicios
             // 
@@ -156,6 +180,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnEx3;
         private System.Windows.Forms.Button btnEx5;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnEx7;
     }
 }
 

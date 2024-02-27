@@ -60,5 +60,15 @@ namespace WindowsFormsLista
         {
             loadForm(new Ex5());
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            loadForm(new Ex6());
+        }
+
+        private void btnEx7_Click(object sender, EventArgs e)
+        {
+            loadForm(new Ex7());
+        }
     }
 }

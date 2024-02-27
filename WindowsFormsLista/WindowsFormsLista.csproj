@@ -129,6 +129,18 @@
     <Compile Include="Ex5.Designer.cs">
       <DependentUpon>Ex5.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ex6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex6.Designer.cs">
+      <DependentUpon>Ex6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ex7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex7.Designer.cs">
+      <DependentUpon>Ex7.cs</DependentUpon>
+    </Compile>
     <Compile Include="MenuExercicios.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -151,6 +163,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Ex5.resx">
       <DependentUpon>Ex5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ex6.resx">
+      <DependentUpon>Ex6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ex7.resx">
+      <DependentUpon>Ex7.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuExercicios.resx">
       <DependentUpon>MenuExercicios.cs</DependentUpon>
