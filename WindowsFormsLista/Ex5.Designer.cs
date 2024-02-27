@@ -28,19 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ex5));
             this.btnAdicionar = new System.Windows.Forms.Button();
             this.btnRemover = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.listBoxCompras = new System.Windows.Forms.ListBox();
             this.txbItem = new System.Windows.Forms.TextBox();
-            this.txbQuantidade = new System.Windows.Forms.TextBox();
+            this.btnMarcar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnAdicionar
             // 
-            this.btnAdicionar.Location = new System.Drawing.Point(35, 381);
+            this.btnAdicionar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdicionar.Location = new System.Drawing.Point(223, 338);
             this.btnAdicionar.Name = "btnAdicionar";
             this.btnAdicionar.Size = new System.Drawing.Size(75, 23);
             this.btnAdicionar.TabIndex = 1;
@@ -50,12 +52,13 @@
             // 
             // btnRemover
             // 
-            this.btnRemover.Location = new System.Drawing.Point(223, 381);
+            this.btnRemover.Location = new System.Drawing.Point(223, 367);
             this.btnRemover.Name = "btnRemover";
             this.btnRemover.Size = new System.Drawing.Size(75, 23);
             this.btnRemover.TabIndex = 2;
             this.btnRemover.Text = "REMOVER";
             this.btnRemover.UseVisualStyleBackColor = true;
+            this.btnRemover.Click += new System.EventHandler(this.btnRemover_Click);
             // 
             // label1
             // 
@@ -70,6 +73,8 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(35, 35);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(50, 50);
@@ -78,36 +83,37 @@
             // 
             // listBoxCompras
             // 
+            this.listBoxCompras.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBoxCompras.FormattingEnabled = true;
+            this.listBoxCompras.ItemHeight = 16;
             this.listBoxCompras.Location = new System.Drawing.Point(35, 105);
-            this.listBoxCompras.MultiColumn = true;
             this.listBoxCompras.Name = "listBoxCompras";
             this.listBoxCompras.Size = new System.Drawing.Size(263, 212);
             this.listBoxCompras.TabIndex = 5;
-            this.listBoxCompras.ColumnWidth = 100;
-            this.listBoxCompras.SelectedIndexChanged += new System.EventHandler
-            (this.listBoxCompras_SelectedIndexChanged);
             // 
             // txbItem
             // 
             this.txbItem.Location = new System.Drawing.Point(35, 340);
             this.txbItem.Name = "txbItem";
-            this.txbItem.Size = new System.Drawing.Size(75, 20);
+            this.txbItem.Size = new System.Drawing.Size(124, 20);
             this.txbItem.TabIndex = 6;
             // 
-            // txbQuantidade
+            // btnMarcar
             // 
-            this.txbQuantidade.Location = new System.Drawing.Point(127, 340);
-            this.txbQuantidade.Name = "txbQuantidade";
-            this.txbQuantidade.Size = new System.Drawing.Size(75, 20);
-            this.txbQuantidade.TabIndex = 7;
+            this.btnMarcar.Location = new System.Drawing.Point(35, 367);
+            this.btnMarcar.Name = "btnMarcar";
+            this.btnMarcar.Size = new System.Drawing.Size(75, 23);
+            this.btnMarcar.TabIndex = 7;
+            this.btnMarcar.Text = "MARCAR";
+            this.btnMarcar.UseVisualStyleBackColor = true;
+            this.btnMarcar.Click += new System.EventHandler(this.btnMarcar_Click);
             // 
             // Ex5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(616, 450);
-            this.Controls.Add(this.txbQuantidade);
+            this.Controls.Add(this.btnMarcar);
             this.Controls.Add(this.txbItem);
             this.Controls.Add(this.listBoxCompras);
             this.Controls.Add(this.pictureBox1);
@@ -130,6 +136,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ListBox listBoxCompras;
         private System.Windows.Forms.TextBox txbItem;
-        private System.Windows.Forms.TextBox txbQuantidade;
+        private System.Windows.Forms.Button btnMarcar;
     }
 }
