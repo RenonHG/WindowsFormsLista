@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ex7));
             this.lbContagem = new System.Windows.Forms.Label();
             this.txbTempo = new System.Windows.Forms.TextBox();
@@ -36,17 +37,18 @@
             this.btnParar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lbContagem
             // 
             this.lbContagem.AutoSize = true;
-            this.lbContagem.Font = new System.Drawing.Font("OCR-B 10 BT", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbContagem.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbContagem.ForeColor = System.Drawing.Color.DarkGoldenrod;
             this.lbContagem.Location = new System.Drawing.Point(64, 163);
             this.lbContagem.Name = "lbContagem";
-            this.lbContagem.Size = new System.Drawing.Size(282, 42);
+            this.lbContagem.Size = new System.Drawing.Size(229, 46);
             this.lbContagem.TabIndex = 0;
             this.lbContagem.Text = "00:00:00:00";
             // 
@@ -77,6 +79,7 @@
             this.btnResetar.TabIndex = 3;
             this.btnResetar.Text = "RESETAR";
             this.btnResetar.UseVisualStyleBackColor = false;
+            this.btnResetar.Click += new System.EventHandler(this.btnResetar_Click);
             // 
             // btnParar
             // 
@@ -87,6 +90,7 @@
             this.btnParar.TabIndex = 4;
             this.btnParar.Text = "PARAR";
             this.btnParar.UseVisualStyleBackColor = false;
+            this.btnParar.Click += new System.EventHandler(this.btnParar_Click);
             // 
             // label1
             // 
@@ -108,6 +112,10 @@
             this.pictureBox1.Size = new System.Drawing.Size(50, 50);
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Ex7
             // 
@@ -140,5 +148,6 @@
         private System.Windows.Forms.Button btnParar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Timer timer1;
     }
 }

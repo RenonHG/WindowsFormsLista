@@ -94,3 +94,5 @@ C:\repos\Renon\WindowsFormsLista\WindowsFormsLista\obj\Debug\WindowsFormsLista.E
 C:\Users\renon.hgusson\source\repos\WindowsFormsLista\WindowsFormsLista\obj\Debug\WindowsFormsLista.Ex5.resources
 C:\Users\renon.hgusson\source\repos\WindowsFormsLista\WindowsFormsLista\obj\Debug\WindowsFormsLista.Ex6.resources
 C:\Users\renon.hgusson\source\repos\WindowsFormsLista\WindowsFormsLista\obj\Debug\WindowsFormsLista.Ex7.resources
+C:\repos\Renon\WindowsFormsLista\WindowsFormsLista\obj\Debug\WindowsFormsLista.Ex6.resources
+C:\repos\Renon\WindowsFormsLista\WindowsFormsLista\obj\Debug\WindowsFormsLista.Ex7.resources
