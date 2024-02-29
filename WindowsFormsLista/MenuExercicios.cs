@@ -70,5 +70,7 @@ namespace WindowsFormsLista
         {
             loadForm(new Ex7());
         }
+
+        
     }
 }

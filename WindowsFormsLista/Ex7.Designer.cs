@@ -31,7 +31,6 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ex7));
             this.lbContagem = new System.Windows.Forms.Label();
-            this.txbTempo = new System.Windows.Forms.TextBox();
             this.btnIniciar = new System.Windows.Forms.Button();
             this.btnResetar = new System.Windows.Forms.Button();
             this.btnParar = new System.Windows.Forms.Button();
@@ -53,16 +52,11 @@
             this.lbContagem.TabIndex = 0;
             this.lbContagem.Text = "00:00:00";
             // 
-            // txbTempo
-            // 
-            this.txbTempo.Location = new System.Drawing.Point(71, 120);
-            this.txbTempo.Name = "txbTempo";
-            this.txbTempo.Size = new System.Drawing.Size(81, 20);
-            this.txbTempo.TabIndex = 1;
-            // 
             // btnIniciar
             // 
             this.btnIniciar.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.btnIniciar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIniciar.ForeColor = System.Drawing.Color.White;
             this.btnIniciar.Location = new System.Drawing.Point(71, 221);
             this.btnIniciar.Name = "btnIniciar";
             this.btnIniciar.Size = new System.Drawing.Size(81, 35);
@@ -74,6 +68,8 @@
             // btnResetar
             // 
             this.btnResetar.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnResetar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnResetar.ForeColor = System.Drawing.Color.White;
             this.btnResetar.Location = new System.Drawing.Point(167, 221);
             this.btnResetar.Name = "btnResetar";
             this.btnResetar.Size = new System.Drawing.Size(81, 35);
@@ -85,6 +81,8 @@
             // btnParar
             // 
             this.btnParar.BackColor = System.Drawing.Color.IndianRed;
+            this.btnParar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnParar.ForeColor = System.Drawing.Color.White;
             this.btnParar.Location = new System.Drawing.Point(265, 221);
             this.btnParar.Name = "btnParar";
             this.btnParar.Size = new System.Drawing.Size(81, 35);
@@ -120,11 +118,12 @@
             // 
             // masktxbTempo
             // 
-            this.masktxbTempo.Location = new System.Drawing.Point(167, 120);
+            this.masktxbTempo.Location = new System.Drawing.Point(71, 123);
             this.masktxbTempo.Mask = "00:00:00";
             this.masktxbTempo.Name = "masktxbTempo";
-            this.masktxbTempo.Size = new System.Drawing.Size(100, 20);
+            this.masktxbTempo.Size = new System.Drawing.Size(81, 20);
             this.masktxbTempo.TabIndex = 7;
+            this.masktxbTempo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.masktxbTempo.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.masktxbTempo_MaskInputRejected);
             // 
             // Ex7
@@ -138,7 +137,6 @@
             this.Controls.Add(this.btnParar);
             this.Controls.Add(this.btnResetar);
             this.Controls.Add(this.btnIniciar);
-            this.Controls.Add(this.txbTempo);
             this.Controls.Add(this.lbContagem);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Ex7";
@@ -153,7 +151,6 @@
         #endregion
 
         private System.Windows.Forms.Label lbContagem;
-        private System.Windows.Forms.TextBox txbTempo;
         private System.Windows.Forms.Button btnIniciar;
         private System.Windows.Forms.Button btnResetar;
         private System.Windows.Forms.Button btnParar;
