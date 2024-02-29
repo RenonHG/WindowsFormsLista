@@ -38,6 +38,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.masktxbTempo = new System.Windows.Forms.MaskedTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -48,15 +49,15 @@
             this.lbContagem.ForeColor = System.Drawing.Color.DarkGoldenrod;
             this.lbContagem.Location = new System.Drawing.Point(64, 163);
             this.lbContagem.Name = "lbContagem";
-            this.lbContagem.Size = new System.Drawing.Size(229, 46);
+            this.lbContagem.Size = new System.Drawing.Size(174, 46);
             this.lbContagem.TabIndex = 0;
-            this.lbContagem.Text = "00:00:00:00";
+            this.lbContagem.Text = "00:00:00";
             // 
             // txbTempo
             // 
             this.txbTempo.Location = new System.Drawing.Point(71, 120);
             this.txbTempo.Name = "txbTempo";
-            this.txbTempo.Size = new System.Drawing.Size(100, 20);
+            this.txbTempo.Size = new System.Drawing.Size(81, 20);
             this.txbTempo.TabIndex = 1;
             // 
             // btnIniciar
@@ -117,11 +118,21 @@
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // masktxbTempo
+            // 
+            this.masktxbTempo.Location = new System.Drawing.Point(167, 120);
+            this.masktxbTempo.Mask = "00:00:00";
+            this.masktxbTempo.Name = "masktxbTempo";
+            this.masktxbTempo.Size = new System.Drawing.Size(100, 20);
+            this.masktxbTempo.TabIndex = 7;
+            this.masktxbTempo.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.masktxbTempo_MaskInputRejected);
+            // 
             // Ex7
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(519, 375);
+            this.Controls.Add(this.masktxbTempo);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnParar);
@@ -149,5 +160,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.MaskedTextBox masktxbTempo;
     }
 }
