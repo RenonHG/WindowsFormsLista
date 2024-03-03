@@ -52,7 +52,8 @@
             // 
             // btnEx1
             // 
-            this.btnEx1.BackColor = System.Drawing.Color.Transparent;
+            this.btnEx1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.btnEx1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEx1.Location = new System.Drawing.Point(12, 91);
             this.btnEx1.Name = "btnEx1";
             this.btnEx1.Size = new System.Drawing.Size(163, 23);
@@ -63,6 +64,7 @@
             // 
             // btnEx4
             // 
+            this.btnEx4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEx4.Location = new System.Drawing.Point(12, 178);
             this.btnEx4.Name = "btnEx4";
             this.btnEx4.Size = new System.Drawing.Size(163, 23);
@@ -91,7 +93,8 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.button2.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(12, 294);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(163, 23);
@@ -101,6 +104,7 @@
             // 
             // btnEx7
             // 
+            this.btnEx7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEx7.Location = new System.Drawing.Point(12, 265);
             this.btnEx7.Name = "btnEx7";
             this.btnEx7.Size = new System.Drawing.Size(163, 23);
@@ -111,6 +115,7 @@
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(12, 236);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(163, 23);
@@ -121,6 +126,7 @@
             // 
             // btnEx5
             // 
+            this.btnEx5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEx5.Location = new System.Drawing.Point(12, 207);
             this.btnEx5.Name = "btnEx5";
             this.btnEx5.Size = new System.Drawing.Size(163, 23);
@@ -134,7 +140,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.label1.Location = new System.Drawing.Point(26, 9);
             this.label1.MaximumSize = new System.Drawing.Size(200, 0);
@@ -146,6 +152,7 @@
             // 
             // btnEx3
             // 
+            this.btnEx3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEx3.Location = new System.Drawing.Point(12, 149);
             this.btnEx3.Name = "btnEx3";
             this.btnEx3.Size = new System.Drawing.Size(163, 23);
@@ -156,7 +163,8 @@
             // 
             // btnEx2
             // 
-            this.btnEx2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnEx2.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.btnEx2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEx2.Location = new System.Drawing.Point(12, 120);
             this.btnEx2.Name = "btnEx2";
             this.btnEx2.Size = new System.Drawing.Size(163, 23);

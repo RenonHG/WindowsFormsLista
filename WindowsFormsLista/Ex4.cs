@@ -18,9 +18,9 @@ namespace WindowsFormsLista
         }
 
         string letras = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" + "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToLower();
-        string numeros = "0123456789";
+        string numeros = "01234567890123456789";
         string especiais = "!@#$%&*-+_Ç!@#$%&*-+_Ç";
-        string senha = "";
+        string senha;
         
 
 
@@ -53,7 +53,7 @@ namespace WindowsFormsLista
 
                 for (int i = 0; i < nudTamanho.Value; i++)
                 {
-
+                    //senha recebe um caractere aleatório da string 'caracteres' por vez, até completar o número requisitado.
                     senha += caracteres[gerada.Next(tamanho)];
 
                 }
@@ -65,6 +65,7 @@ namespace WindowsFormsLista
             {
                 MessageBox.Show("Selecione ao menos uma opção de caracteres!!!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            //zerar senha
             senha = "";
 
         }
