@@ -46,11 +46,13 @@ namespace WindowsFormsLista
                     caracteres += especiais;
                 }
 
-
+                //variável que recebe a quantidade de caracteres guardada em 'caracteres'
                 int tamanho = caracteres.Length;
+
 
                 Random gerada = new Random();
 
+                //numeric updown (valor do usuário)
                 for (int i = 0; i < nudTamanho.Value; i++)
                 {
                     //senha recebe um caractere aleatório da string 'caracteres' por vez, até completar o número requisitado.
@@ -58,6 +60,7 @@ namespace WindowsFormsLista
 
                 }
 
+                //exibir resultado
                 txbResultado.Text = senha;
 
             }
