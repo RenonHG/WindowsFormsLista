@@ -32,7 +32,7 @@ namespace WindowsFormsLista
             //listViewTarefas.View = View.Details;
             //listViewTarefas.Columns.Add("tarefas", 255);
 
-            string conexaoString = "server=62.72.62.1;user=u687609827_alunos;database=u687609827_TI21;port=3306;password=@Aluno12345";
+            string conexaoString = "server=localhost;user=root;database=db_tarefas;port=3306;password=";
 
             using (MySqlConnection conexao = new MySqlConnection(conexaoString))
             {
@@ -61,7 +61,7 @@ namespace WindowsFormsLista
 
         private void CadastrarTarefas(string tarefa)
         {
-            string conexaoString = "server=62.72.62.1;user=u687609827_alunos;database=u687609827_TI21;port=3306;password=@Aluno12345";
+            string conexaoString = "server=localhost;user=root;database=db_tarefas;port=3306;password=";
 
             try
             {
@@ -108,7 +108,7 @@ namespace WindowsFormsLista
 
         private void btnRemover_Click(object sender, EventArgs e)
         {
-            string conexaoString = "server=62.72.62.1;user=u687609827_alunos;database=u687609827_TI21;port=3306;password=@Aluno12345";
+            string conexaoString = "server=localhost;user=root;database=db_tarefas;port=3306;password=";
             string id = txbID.Text;
 
             using (MySqlConnection conexao = new MySqlConnection(conexaoString))
@@ -142,7 +142,7 @@ namespace WindowsFormsLista
 
         private void btnAlterar_Click(object sender, EventArgs e)
         {
-            string conexaoString = "server=62.72.62.1;user=u687609827_alunos;database=u687609827_TI21;port=3306;password=@Aluno12345";
+            string conexaoString = "server=localhost;user=root;database=db_tarefas;port=3306;password=";
             string id = txbID.Text;
             string tarefaNova = txbTarefa.Text;
 
